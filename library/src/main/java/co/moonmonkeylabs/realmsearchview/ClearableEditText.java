@@ -48,6 +48,7 @@ public class ClearableEditText extends EditText
         addTextChangedListener(this);
     }
 
+
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         if (getCompoundDrawables()[2] != null) {
