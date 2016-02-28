@@ -40,6 +40,7 @@ public class ClearableEditText extends EditText
         if (clearDrawable == null) {
             clearDrawable = getResources().getDrawable(R.drawable.ic_cancel_black_18dp);
         }
+
         setClearDrawable(clearDrawable);
         setClearIconVisible(false);
         setOnTouchListener(this);
