@@ -17,6 +17,7 @@
         android:layout_weight="1"
         app:rrvIsRefreshable="false"
         app:rrvLayoutType="Grid"
+        app:rrvGridLayoutSpanCount="2"
         />
 
 </merge>
