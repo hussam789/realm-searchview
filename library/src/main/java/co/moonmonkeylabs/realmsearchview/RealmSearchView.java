@@ -44,7 +44,6 @@ public class RealmSearchView extends LinearLayout {
 
         realmRecyclerView = (RealmRecyclerView) findViewById(R.id.realm_recycler_view);
         searchBar = (ClearableEditText) findViewById(R.id.search_bar);
-
         initAttrs(context, attrs);
 
         searchBar.addTextChangedListener(
@@ -64,6 +63,7 @@ public class RealmSearchView extends LinearLayout {
                     }
                 }
         );
+
     }
 
     private Handler handler = null;
